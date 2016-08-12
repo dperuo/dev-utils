@@ -21,7 +21,7 @@
       root.clone = factory();
   }
 })(this, () => {
-    return function (obj: Object): Object {
+    return (obj: Object): Object => {
       // heyjavascript.com/4-creative-ways-to-clone-objects/
       return JSON.parse(JSON.stringify(obj));
     }
