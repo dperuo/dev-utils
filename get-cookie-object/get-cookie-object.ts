@@ -22,7 +22,7 @@
       var output: Object = {};
       var cookiesArray: string[] = cookies.split('; ');
 
-      cookiesArray.forEach(function(value: string) {
+      cookiesArray.forEach((value: string) => {
         var item: string[] = value.split('=');
         output[item[0]] = item[1];
       });
