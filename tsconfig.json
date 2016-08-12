@@ -12,6 +12,7 @@
   "files": [
     "./_typings/index.d.ts",
     "./clone/clone.ts",
+    "./get-cookie-object/get-cookie-object.ts",
     "./get-hash/get-hash.ts"
   ]
 }
