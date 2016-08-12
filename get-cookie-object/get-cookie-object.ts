@@ -20,10 +20,10 @@
 })(this, () => {
     return (cookies: string): Object => {
       var output: Object = {};
-      var cookiesArray: any[] = cookies.split('; ');
+      var cookiesArray: string[] = cookies.split('; ');
 
-      cookiesArray.forEach(function(value) {
-        var item = value.split('=');
+      cookiesArray.forEach(function(value: string) {
+        var item: string[] = value.split('=');
         output[item[0]] = item[1];
       });
 
