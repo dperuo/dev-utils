@@ -1,2 +1,2 @@
 # dev-utils
-Small snippets of code useful across all projects
+Small utilties useful across all projects. Uses ES6 module loading pattern.
