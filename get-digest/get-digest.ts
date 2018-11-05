@@ -9,6 +9,7 @@
  * Based on https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest
  *
  * @param {string} algorithm - The hash function to use. Default is sha256.
+ * @param {string} message - The string to
  *
  * @return {Promise} - The unique digest Promise.
  *
@@ -21,17 +22,19 @@
 
 import { TextEncoder } from "text-encoding";
 
-async function getDigest(message) {
+async function getDigest(text: string, algorithm = 'SHA-256') {
 
   const encoder = new TextEncoder();
 
-  const encodedMessage = encoder.encode(message);
+  const encodedText = encoder.encode(text);
 
-  const hashedMessage = await crypto.subtle.digest('SHA-256', encodedMessage);
+  const hashedText = await crypto.subtle.digest(algorithm, encodedText);
 
-  const hashArray = Array.from(new Uint8Array(hashedMessage));
+  const intArray = new Uint8Array(hashedText);
 
-  const digest = hashArray.map(b => ('00' + b.toString(16)).slice(-2)).join('');
+  const hashArray = Array.from(intArray);
+
+  const digest = hashArray.map(value => ('00' + value.toString(16)).slice(-2)).join('');
 
   return digest;
 }
