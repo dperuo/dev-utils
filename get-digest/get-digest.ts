@@ -34,7 +34,20 @@ async function getDigest(text: string, algorithm = 'SHA-256') {
 
   const hashArray = Array.from(intArray);
 
-  const digest = hashArray.map(value => ('00' + value.toString(16)).slice(-2)).join('');
+  const digestArray = hashArray.map(value => {
+
+    const NUM_BASE = 16;
+    const HEX_PADDING = '00';
+    const HEX_WITHOUT_PADDING = -2;
+
+    const PADDED_HEX_VAL = `${HEX_PADDING}${value.toString(NUM_BASE)}`;
+
+    const output = PADDED_HEX_VAL.slice(HEX_WITHOUT_PADDING);
+
+    return output;
+  })
+
+  const digest = digestArray.join('');
 
   return digest;
 }
