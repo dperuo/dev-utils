@@ -1,0 +1,26 @@
+{
+  "name": "dev-utils",
+  "version": "1.0.0",
+  "description": "Small snippets of code useful across all projects",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/text-encoding": "0.0.35",
+    "typescript-compiler": "1.4.1-2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf **/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dperuo/dev-utils.git"
+  },
+  "author": "Derek Peruo <derek@derekperuo.net> (http://derekperuo.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dperuo/dev-utils/issues"
+  },
+  "homepage": "https://github.com/dperuo/dev-utils#readme"
+}
