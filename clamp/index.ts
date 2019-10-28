@@ -1,6 +1,4 @@
 /**
- * clamp()
- *
  * Returns a number between min and max values.
  *
  * FROM: https://github.com/ionic-team/ionic/blob/master/core/src/utils/helpers.ts#L57
@@ -9,7 +7,7 @@
  * @param {number} value - Value to test agaist `min` and `max` value.
  * @param {number} max - Largest value.
  *
- * @return {number} - The number between min and max values.
+ * @return {number} The number between min and max values.
  *
  * @example:
  *   const val = clamp(3, 4, 5);
@@ -21,7 +19,9 @@
  *   const val = clamp(3, 1, 5);
  *   // => 3
  */
-const clamp = (min, value, max) => {
-    return Math.max(min, Math.min(value, max));
-};
-export { clamp };
+
+const clamp = (min: number, value: number, max: number): number => {
+  return Math.max(min, Math.min(value, max));
+}
+
+export { clamp }

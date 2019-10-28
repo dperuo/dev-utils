@@ -1,16 +1,10 @@
 /**
- * memoize()
- *
- * Copywrite (c) 2017 Derek Peruo
- * Licensed under the MIT License
- * http://github.com/dperuo
- *
  * Returns a memoized instance of any function.
  *
  * @param {Funciton} callback - The funciton to memoize.
- * @return {Function} - The memoized function
+ * @return {Function} The memoized function
  *
- * @example:
+ * @example
  *   var sum = memoize((...values) => values.reduce((total, value) => total + value);
  *   sum(5, 6, 7);
  *   // => 18

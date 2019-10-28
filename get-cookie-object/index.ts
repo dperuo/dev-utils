@@ -1,15 +1,9 @@
 /**
- * getCookieObject()
+ * Returns an object of key-value cookie pairs
  *
- * Copywrite (c) 2017 Derek Peruo
- * Licensed under the MIT License
- * http://github.com/dperuo
+ * @param {String} cookies - The `document.cookie` string.
  *
- * returns an object of key-value cookie pairs
- *
- * @param {String} cookies - The document.cookie string
- *
- * @return {Object} - The cookie object
+ * @return {Object} The cookie object.
  */
 
 const getCookieObject = (cookieString: string): Object => {

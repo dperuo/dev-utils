@@ -1,11 +1,5 @@
 /**
- * getQueryObject()
- *
- * Copywrite (c) 2017 Derek Peruo
- * Licensed under the MIT License
- * http://github.com/dperuo
- *
- * returns an object of key-value pairs representing the URL query string
+ * Returns an object of key-value pairs representing the URL query string
  *
  * @param {String} search - The location.search value
  *

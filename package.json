@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "clean": "rm -rf **/*.js",
+    "clean": "rm -rf *.js *.js.map **/*.js **/*.js.map",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

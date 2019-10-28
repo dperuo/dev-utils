@@ -6,7 +6,7 @@
     "module": "es2015",
     "moduleResolution": "node",
     "noImplicitAny": false,
-    "removeComments": false,
+    "removeComments": true,
     "sourceMap": false,
     "target": "es2015"
   },
