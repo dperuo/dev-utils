@@ -9,7 +9,7 @@ Use these small JavaScript utilities to make some complex business logic easier.
 ## Install
 
 ```sh
-npm install dperuo/dev-utils
+npm install @dperuo/dev-utils
 ```
 
 ## Usage
