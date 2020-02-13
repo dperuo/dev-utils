@@ -17,7 +17,7 @@ npm install @dperuo/dev-utils
 Import utilities directly into your files:
 
 ```javascript
-import { asRatio, clone, getDigest } from 'dperuo/dev-utils';
+import { asRatio, clone, getDigest } from '@dperuo/dev-utils';
 ```
 
 ## Run tests
