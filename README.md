@@ -1,9 +1,10 @@
+[![Version](https://img.shields.io/badge/Version-1.1.0-blue.svg?style=for-the-badge)](https://github.com/dperuo/dev-utils/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/dperuo/dev-utils/blob/master/LICENSE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/dperuo/dev-utils?style=for-the-badge)
 
 # Welcome to Derek's Dev Utils 👋
 
-Use these small JavaScript utilities to make some complex business logic easier. 
+Use these small JavaScript utilities to make some complex business logic easier.
 
 ## Install
 
@@ -37,7 +38,7 @@ npm test
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](https://github.com/dperuo/dev-utils/issues). 
+Feel free to check [issues page](https://github.com/dperuo/dev-utils/issues).
 
 ## Show your support
 
