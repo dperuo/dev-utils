@@ -8,3 +8,4 @@ export * from './get-enum';
 export * from './get-query-object';
 export * from './get-random-hash';
 export * from './memoize';
+export * from './parse';
