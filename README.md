@@ -1,3 +1,8 @@
+![](https://gist.githubusercontent.com/dperuo/52edd14dcbeca9bf7a4a6bcedf308e69/raw/cf746de5b5fd10ed492277ac3518bb8b6b8c5d8e/deprecated.svg)
+
+# Please use [@appsweet-co/utils](https://github.com/Appsweet-co/utils) instead.
+
+<!--
 [![Version](https://img.shields.io/badge/Version-1.1.0-blue.svg?style=for-the-badge)](https://github.com/dperuo/dev-utils/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/dperuo/dev-utils/blob/master/LICENSE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/dperuo/dev-utils?style=for-the-badge)
@@ -53,3 +58,4 @@ This project is [MIT](https://github.com/dperuo/dev-utils/blob/master/LICENSE) l
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+-->
